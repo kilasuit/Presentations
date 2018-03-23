@@ -1,0 +1,3 @@
+I had intended to do a much larger demo with this Presentation but due to forgetting my Secret Server Credentials & the subsequent blocking of WebServices on the Free Edition this became a talk more pushed to discussing the problems within IT centred around Credential Security
+
+I pointed out to a number of existing resources and have updatesd the slide deck to include some futher resources that should be used to further understand where improvements can be made.
