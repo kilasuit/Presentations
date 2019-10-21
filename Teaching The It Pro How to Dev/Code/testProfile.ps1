@@ -1,4 +1,4 @@
-<# # Some Modules that I already have installed and use day to day
+ #Some Modules that I already have installed and use day to day
 
 Import-Module posh-git
 Import-Module EditorServicesCommandSuite
@@ -9,7 +9,7 @@ $TestCredential = [pscredential]::new('Test-UserAccount',(ConvertTo-SecureString
 
 Set-bCredential -Credential $TestCredential -Target ProfileCredential
 
-Find-bCredential | Where Target -match 'Test' | Select Username
+Find-bCredential | Where-Object Target -match 'Test' | Select-Object Username
 
 
 if (Get-Module SharePointPnPPowerShellOnline -ListAvailable) {
